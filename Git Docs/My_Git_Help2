@@ -1,0 +1,66 @@
+My Git list
+
+//Install Git in computer//
+
+URL
+https://github.com/Jesus95santana/FrontEndProjects.git
+
+Password Token
+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
+
+// Start Repository Commands
+
+git version
+
+git init (creates repository)
+
+git remote add origin <webscite> (links github)
+
+Create file in repository and commit it so that a branch appears
+
+git pull/fetch? (updates local with remote repository)
+
+git checkout --track origin/<branch_name> (new branch defaulting to repository) [remember to make a new branch_name in github named windows or apple]
+
+git pull (downloads remote files)
+
+//
+
+git push -u origin <branch_name>
+
+git clone <URL>
+
+// Branches
+
+git branch
+
+git branch -d (delete)
+
+git branch -v (data check)
+
+git checkout
+
+git branch --track origin/<branch_name>
+
+<<<<<<< HEAD
+Git remote remove origin (deletes origin)
+=======
+<<<<<<< HEAD
+git remote -v (checks remote url)
+=======
+Git remote remove origin (deletes origin)
+>>>>>>> 1fcb15fbfa472e37dd10d3b8471fc20bf308d706
+>>>>>>> 00a74b3318dc665988f49a8d60922d31aafccd15
+
+---update current branch with main or develop
+git merge <main or develop>// depending if your on frontend or portfolio
+
+//
+
+touch readme.txt (creates file)
+
+<<<<<<< HEAD
+Last updated apple
+=======
+Last updated apple
+>>>>>>> 00a74b3318dc665988f49a8d60922d31aafccd15
